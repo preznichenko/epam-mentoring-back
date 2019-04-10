@@ -1,7 +1,7 @@
 # epam-mentoring-back
 
 ## Requirements
-- PHP
+- PHP 7.1
 - composer (https://getcomposer.org)
 
 ## Installation
