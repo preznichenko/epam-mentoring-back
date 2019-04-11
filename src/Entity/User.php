@@ -18,6 +18,11 @@ class User extends BaseUser
      */
     protected $id;
 
+    /**
+     * @ORM\OneToMany(targetEntity="App\Entity\Page", mappedBy="author")
+     */
+    private $ownedPages;
+
     public function __construct()
     {
         parent::__construct();
