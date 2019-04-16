@@ -40,8 +40,7 @@
         "preferred-install": {
             "*": "dist"
         },
-        "sort-packages": true,
-        ENV COMPOSER_ALLOW_SUPERUSER 1
+        "sort-packages": true
     },
     "autoload": {
         "psr-4": {
